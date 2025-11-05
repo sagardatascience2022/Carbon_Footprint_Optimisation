@@ -1,0 +1,12 @@
+# Requirements for Carbon Footprint Optimisation Streamlit app
+# Pin scikit-learn to 1.5.1 to match the model that was pickled with 1.5.1
+streamlit>=1.10
+pandas>=1.5
+numpy>=1.23
+scikit-learn==1.5.1
+joblib>=1.2
+folium>=0.14
+openrouteservice>=2.3.0
+streamlit-folium>=0.10
+geopy>=2.3
+requests>=2.28
